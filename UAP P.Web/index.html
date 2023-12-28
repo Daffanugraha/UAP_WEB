@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Transaksi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <table>
+    <thead>
+      <tr>
+        <th>Kode</th>
+        <th>Barang</th>
+        <th>Harga</th>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+  </table>
+
+  <table id="inputTable">
+    <h1>Inputan User</h1>
+    <tr>
+      <td><label for="kodeBarang">Masukkan Kode Barang:</label></td>
+      <td><input type="text" id="kodeBarang"></td>
+    </tr>
+    <tr>
+      <td><label for="jumlahBarang">Masukkan Jumlah Barang:</label></td>
+      <td><input type="number" id="jumlahBarang"></td>
+    </tr>
+  </table>
+
+  <button onclick="transaksi()">Submit</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
